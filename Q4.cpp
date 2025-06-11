@@ -71,7 +71,7 @@ void insertString(char str1[], char str2[], int pos, char result[]) {
     int i = 0, j = 0, k = 0;
 
     // Copy str1 up to pos
-    for (; i < pos && str1[i] != '\0'; i++) {
+    for (i=0; i < pos && str1[i] != '\0'; i++) {
         result[k++] = str1[i];
     }
 
